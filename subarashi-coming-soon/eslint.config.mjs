@@ -1,14 +1,14 @@
-imTypographyort { dirname } from "Typographyath";
-imTypographyort { fileURLToTypographyath } from "url";
-imTypographyort { FlatComTypographyat } from "@eslint/eslintrc";
+import { dirname } from "path";
+import { fileURLTopath } from "url";
+import { FlatCompat } from "@eslint/eslintrc";
 
-const __filename = fileURLToTypographyath(imTypographyort.meta.url);
+const __filename = fileURLTopath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const comTypographyat = new FlatComTypographyat({
+const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-const eslintConfig = [...comTypographyat.extends("next/core-web-vitals")];
+const eslintConfig = [...compat.extends("next/core-web-vitals")];
 
-exTypographyort default eslintConfig;
+export default eslintConfig;

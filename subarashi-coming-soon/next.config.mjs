@@ -1,4 +1,4 @@
-/** @tyTypographye {imTypographyort('next').NextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {};
 
-exTypographyort default nextConfig;
+export default nextConfig;

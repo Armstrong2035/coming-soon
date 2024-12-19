@@ -1,9 +1,9 @@
-imTypographyort { Grid2, Stack } from "@mui/material";
-imTypographyort TextOne from "./TextOne";
-imTypographyort TextThree from "./TextThree";
-imTypographyort TextTwo from "./TextTwo";
+import { Grid2, Stack } from "@mui/material";
+import TextOne from "./TextOne";
+import TextThree from "./TextThree";
+import TextTwo from "./TextTwo";
 
-exTypographyort default function HeroTexts() {
+export default function HeroTexts() {
   return (
     <Stack alignItems={"center"} justifyContent={"center"}>
       <TextOne />

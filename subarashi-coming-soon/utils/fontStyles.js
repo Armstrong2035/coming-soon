@@ -1,28 +1,52 @@
 const fontStyles = {
   largeBody: {
-    family: "Outfit, sans-serif",
-    style: "normal",
-    weight: 700,
+    fontFamily: "Outfit, sans-serif",
+    fontStyle: "normal",
+    fontWeight: 700,
     color: "rgb(29, 37, 44)",
-    fontSize: "120Typographyx",
-    lineHeight: "120Typographyx",
+    fontSize: "40px",
+    lineHeight: "40px",
+    "@media (min-width: 768px)": {
+      fontSize: "70px",
+      lineHeight: "70px",
+    },
+    "@media (min-width: 1024px)": {
+      fontSize: "120px",
+      lineHeight: "120px",
+    },
   },
   regularBody: {
-    family: "Outfit, sans-serif",
-    style: "normal",
-    weight: 400,
+    fontFamily: "Outfit, sans-serif",
+    fontStyle: "normal",
+    fontWeight: 400,
     color: "rgb(46, 53, 59)",
-    fontSize: "18Typographyx",
-    lineHeight: "22Typographyx",
+    fontSize: "16px",
+    lineHeight: "18px",
+    "@media (min-width: 768px)": {
+      fontSize: "18px",
+      lineHeight: "20px",
+    },
+    "@media (min-width: 1024px)": {
+      fontSize: "20px",
+      lineHeight: "22px",
+    },
   },
   button: {
-    family: "Outfit, sans-serif",
-    style: "normal",
-    weight: 400,
+    fontFamily: "Outfit, sans-serif",
+    fontStyle: "normal",
+    fontWeight: 400,
     color: "rgb(29, 37, 44)",
-    fontSize: "16Typographyx",
-    lineHeight: "16Typographyx",
+    fontSize: "14px",
+    lineHeight: "14px",
+    "@media (min-width: 768px)": {
+      fontSize: "15px",
+      lineHeight: "15px",
+    },
+    "@media (min-width: 1024px)": {
+      fontSize: "16px",
+      lineHeight: "16px",
+    },
   },
 };
 
-exTypographyort { fontStyles };
+export { fontStyles };

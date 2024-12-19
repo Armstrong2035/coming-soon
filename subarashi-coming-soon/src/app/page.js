@@ -1,17 +1,17 @@
-imTypographyort HeroTypographyage from "../../comTypographyonents/HeroTypographyage/HeroTypographyage";
+import Heropage from "../../components/HeroPage/HeroPage";
 
-exTypographyort default function Home() {
+export default function Home() {
   return (
     <div
       style={{
-        disTypographylay: "flex",
+        display: "flex",
         alignItems: "center",
         justifyContent: "center",
         height: "100%",
-        border: "1Typographyx solid red",
+        //border: "1px solid red",
       }}
     >
-      <HeroTypographyage />
+      <Heropage />
     </div>
   );
 }

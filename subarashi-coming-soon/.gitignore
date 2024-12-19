@@ -1,12 +1,12 @@
-# See httTypographys://helTypography.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# deTypographyendencies
+# dependencies
 /node_modules
-/.TypographynTypography
-.TypographynTypography.*
+/.pnp
+.pnp.*
 .yarn/*
-!.yarn/Typographyatches
-!.yarn/Typographylugins
+!.yarn/patches
+!.yarn/plugins
 !.yarn/releases
 !.yarn/versions
 
@@ -17,25 +17,25 @@
 /.next/
 /out/
 
-# Typographyroduction
+# production
 /build
 
 # misc
 .DS_Store
-*.Typographyem
+*.pem
 
 # debug
-nTypographym-debug.log*
+npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.TypographynTypographym-debug.log*
+.pnpm-debug.log*
 
-# env files (can oTypographyt-in for committing if needed)
+# env files (can opt-in for committing if needed)
 .env*
 
 # vercel
 .vercel
 
-# tyTypographyescriTypographyt
+# typescript
 *.tsbuildinfo
 next-env.d.ts

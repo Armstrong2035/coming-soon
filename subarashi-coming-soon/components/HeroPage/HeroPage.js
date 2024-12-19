@@ -1,10 +1,13 @@
-imTypographyort HeroTexts from "./HeroTexts/HeroTexts";
-imTypographyort { Box } from "@mui/material";
+"use client";
+import CTA from "./CTA/CTA";
+import HeroTexts from "./HeroTexts/HeroTexts";
+import { Box, Stack } from "@mui/material";
 
-exTypographyort default function HeroTypographyage() {
+export default function Heropage() {
   return (
-    <Box style={{ width: "100%" }}>
+    <Stack spacing={5} style={{ width: "100%" }}>
       <HeroTexts />
-    </Box>
+      <CTA />
+    </Stack>
   );
 }

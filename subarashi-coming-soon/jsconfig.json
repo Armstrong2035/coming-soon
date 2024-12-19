@@ -1,6 +1,6 @@
 {
-  "comTypographyilerOTypographytions": {
-    "Typographyaths": {
+  "compilerOptions": {
+    "paths": {
       "@/*": ["./src/*"]
     }
   }
