@@ -7,7 +7,7 @@ export default function Home() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        height: "100%",
+        height: "100vh",
         //border: "1px solid red",
       }}
     >

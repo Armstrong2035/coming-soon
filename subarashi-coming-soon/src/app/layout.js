@@ -1,7 +1,7 @@
 export default function RootLayout({ children }) {
   const style = {
     height: "100vh",
-    backgroundColor: "#f0f0f0",
+    backgroundColor: "#FFFFFF",
     backgroundImage: `
       linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px),
       linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px)
